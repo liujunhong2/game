@@ -1,0 +1,53 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Geerling et~al.(2023)Geerling, Nagy, Rhee, Thomas, and Wooten]{geerling2023squidgame}
+GEERLING W, NAGY K, RHEE E, et~al.
+\newblock Using squid game to teach game theory\allowbreak[J].
+\newblock Journal of Economics Teaching, 2023, 8\allowbreak (1): 47-63.
+
+\bibitem[Dixit(2005)]{dixit2005restoring}
+DIXIT A.
+\newblock Restoring fun to game theory\allowbreak[J/OL].
+\newblock The Journal of Economic Education, 2005, 36\allowbreak (3): 205-219.
+\newblock DOI: \doi{10.3200/JECE.36.3.205-219}.
+
+\bibitem[Osborne et~al.(1994)Osborne and Rubinstein]{osborne1994course}
+OSBORNE M~J, RUBINSTEIN A.
+\newblock A course in game theory\allowbreak[M].
+\newblock Cambridge, MA: MIT Press, 1994.
+
+\bibitem[Gibbons(1992)]{gibbons1992primer}
+GIBBONS R.
+\newblock A primer in game theory\allowbreak[M].
+\newblock Hemel Hempstead: Harvester Wheatsheaf, 1992.
+
+\bibitem[Akerlof(1970)]{akerlof1970lemons}
+AKERLOF G~A.
+\newblock The market for lemons: quality uncertainty and the market mechanism\allowbreak[J/OL].
+\newblock The Quarterly Journal of Economics, 1970, 84\allowbreak (3): 488-500.
+\newblock DOI: \doi{10.2307/1879431}.
+
+\bibitem[Harsanyi(1967)]{harsanyi1967games}
+HARSANYI J~C.
+\newblock Games with incomplete information played by bayesian players, I--III\allowbreak[J/OL].
+\newblock Management Science, 1967, 14\allowbreak (3): 159-182.
+\newblock DOI: \doi{10.1287/mnsc.14.3.159}.
+
+\bibitem[Spence(1973)]{spence1973job}
+SPENCE M.
+\newblock Job market signaling\allowbreak[J/OL].
+\newblock The Quarterly Journal of Economics, 1973, 87\allowbreak (3): 355-374.
+\newblock DOI: \doi{10.2307/1882010}.
+
+\end{thebibliography}
