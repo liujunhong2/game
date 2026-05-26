@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -15,6 +15,16 @@
 GEERLING W, NAGY K, RHEE E, et~al.
 \newblock Using squid game to teach game theory\allowbreak[J].
 \newblock Journal of Economics Teaching, 2023, 8\allowbreak (1): 47-63.
+
+\bibitem[Anggrela et~al.(2021)Anggrela, Budiman, and Febriyanti]{anggrela2021arisu}
+ANGGRELA R~F, BUDIMAN F~F~J, FEBRIYANTI S~D.
+\newblock Arisu's personality development across the death games in alice in borderland\allowbreak[J].
+\newblock Mahakarya: Jurnal Mahasiswa Ilmu Budaya, 2021, 2\allowbreak (2): 63-69.
+
+\bibitem[Khan et~al.(2023)Khan and Pembecio{\u{g}}lu]{khangeneration}
+KHAN M, PEMBECIO{\u{G}}LU N.
+\newblock Generation Z-game based analytical thinking and problem-solving skills in digital world vs. collaborative life: ``Alice in borderland'' analysis\allowbreak[Z].
+\newblock 2023.
 
 \bibitem[Dixit(2005)]{dixit2005restoring}
 DIXIT A.
