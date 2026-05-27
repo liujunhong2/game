@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# LaTeX build artifacts
+*.acn
+*.acr
+*.alg
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdv
+
+# LaTeX temporary directories
+_minted-*/
+*.listing
+
+# Keep source assets and final PDFs trackable by default.
+!*.tex
+!*.bib
+!*.png
+!*.jpg
+!*.jpeg
+!*.pdf

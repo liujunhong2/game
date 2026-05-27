@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.10)  27 MAY 2026 16:34
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.4.10)  27 MAY 2026 16:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -997,13 +997,7 @@ File: fig/红心7的关键决策路径.png Graphic file (type bmp)
  [13]
 File: fig/红心Jif线情况分析.png Graphic file (type bmp)
 <fig/红心Jif线情况分析.png>
- [14] (./main.bbl [15]) [16] [17
-
-]
-Missing character: There is no ♥ (U+2665) in font [lmroman10-regular]:mapping=tex-text;!
-[18]
-Missing character: There is no ♥ (U+2665) in font [lmroman10-regular]:mapping=tex-text;!
-[19] [20] [21] (./main.aux)
+ [14] (./main.bbl [15]) [16] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
@@ -1022,16 +1016,16 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: B179DE5000D0774BF8DE67D75265839F;1382
-(rerunfilecheck)             After:  BADB47BBB267F7C046CFAC99C96F9C16;2516.
+(rerunfilecheck)             Before: BADB47BBB267F7C046CFAC99C96F9C16;2516
+(rerunfilecheck)             After:  774D1AE9A3C4F7B4717131C61609FAD3;703.
  ) 
 Here is how much of TeX's memory you used:
- 27419 strings out of 468168
- 608352 string characters out of 5432815
- 1051044 words of memory out of 5000000
- 55681 multiletter control sequences out of 15000+600000
- 631597 words of font info for 84 fonts, out of 8000000 for 9000
+ 27331 strings out of 468168
+ 602837 string characters out of 5432815
+ 1052252 words of memory out of 5000000
+ 55598 multiletter control sequences out of 15000+600000
+ 631565 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,11n,114p,502b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (21 pages).
+Output written on main.pdf (16 pages).
