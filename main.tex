@@ -1,8 +1,8 @@
 \documentclass{article}
 \usepackage{ctex}
 
+\usepackage{pdfpages}
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
-
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorlinks=true, allcolors=black]{hyperref}
@@ -18,11 +18,14 @@
 \usetikzlibrary{arrows.meta, positioning, shapes.geometric, fit, calc}
 \newcommand{\upcite}[1]{\textsuperscript{[\citenum{#1}]}}
 
+
 % 表格辅助
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 
 \begin{document}
+
+\includepdf[pages=-]{./title/title2.pdf}
 
 \begin{center}
     \vspace*{1em}
