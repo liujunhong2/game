@@ -1,8 +1,27 @@
 \documentclass{article}
 \usepackage{ctex}
+\usepackage{fontspec}
+
+% 模板字体：正文使用宋体。Windows 本地优先使用 SimSun；
+% 若在 Overleaf/TeX Live 环境编译，则自动退回 FandolSong；
+% 再退回 Noto Serif CJK SC，保证不同环境尽量可编译。
+\IfFontExistsTF{SimSun}{%
+  \setCJKmainfont{SimSun}[AutoFakeBold=2.5]%
+  \setCJKfamilyfont{zhsong}{SimSun}[AutoFakeBold=2.5]%
+}{%
+  \IfFontExistsTF{FandolSong-Regular}{%
+    \setCJKmainfont{FandolSong-Regular}[AutoFakeBold=2.5]%
+    \setCJKfamilyfont{zhsong}{FandolSong-Regular}[AutoFakeBold=2.5]%
+  }{%
+    \IfFontExistsTF{Noto Serif CJK SC}{%
+      \setCJKmainfont{Noto Serif CJK SC}[AutoFakeBold=2.5]%
+      \setCJKfamilyfont{zhsong}{Noto Serif CJK SC}[AutoFakeBold=2.5]%
+    }{}%
+  }%
+}
 
 \usepackage{pdfpages}
-\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[a4paper,top=3cm,bottom=3cm,left=3cm,right=3cm]{geometry}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorlinks=true, allcolors=black]{hyperref}
@@ -26,6 +45,9 @@
 \begin{document}
 
 \includepdf[pages=-]{./title/title1.pdf}
+
+% 封面之后的正文、摘要、关键词等统一按模板设为小四宋体。
+\zihao{-4}\songti\linespread{1.20}\selectfont
 
 \begin{center}
     \vspace*{1em}
